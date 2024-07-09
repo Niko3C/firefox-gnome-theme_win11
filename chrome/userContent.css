@@ -1,0 +1,51 @@
+@import "theme/colors/light.css";
+@import "theme/colors/dark.css";
+
+@import "theme/pages/newtab.css";
+@import "theme/pages/privatebrowsing.css";
+
+@import "theme/parts/video-player.css";
+
+/* Import a custom stylesheet
+ * Everything you add in your customContent.css file (it doesn't exist by
+ * default) will be included here and preserved between updates. 
+ * You can apply your own custom styles in that file. */
+@import "customContent.css"; /**/
+
+:root {
+    scrollbar-width: none !important;
+  }
+  
+  @-moz-document url(about:privatebrowsing) {
+    :root {
+      scrollbar-width: none !important;
+    }
+  }
+  
+  @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
+    .top-site-button .title, .context-menu-button {
+        color: #fff !important ;
+        text-shadow: 2px 2px 2px #222 !important ;
+    }
+    
+    .logo-and-wordmark {
+        display: none !important;
+    }
+  
+    body {
+        --newtab-topsites-outer-card-hover:rgba(255, 255, 255, 0.4) !important;
+        --newtab-element-hover-color: rgba(255, 255, 255, 0.3) !important;
+    }
+  
+    body::before {
+        content: "" ;
+        z-index: -1 ;
+        position: fixed ;
+        top: 0 ;
+        left: 0 ;
+        background:radial-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.75)), no-repeat url(img.jpg) center ;
+        background-size: cover ;
+        width: 100vw ;
+        height: 100vh ;
+    }
+  }
