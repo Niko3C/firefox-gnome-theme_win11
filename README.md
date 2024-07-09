@@ -1,0 +1,1 @@
+# firefox-gnome-theme_win11
