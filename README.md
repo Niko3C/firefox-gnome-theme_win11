@@ -35,8 +35,8 @@ This preference is required to recolor the icons, otherwise you will get black i
 
 ## Results Show
 
-![效果图](https://github.com/Niko3C/firefox-gnome-theme_win11/blob/main/README.assets/Snipaste_2024-07-09_20-24-42.png)
+![](https://raw.githubusercontent.com/Niko3C/PicGo-img/main/firefox-gnome-theme.png)
 
 ## Other issues
 
-If you have any questions, you can raise a new issue and we will discuss it together. If you have any other questions, please provide feedback to your email: 3313288623@qq.com
+If you have any questions, you can raise a new issue and we will discuss it together. If you have any other questions, please provide feedback to my email: 3313288623@qq.com
